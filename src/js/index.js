@@ -12,7 +12,7 @@ listaSelecaoPokemons.forEach(pokemon =>{
 
     // Ao clicar em um pokemon da listagem pegamos o id desse pokemon pra saber qual cartao mostrar
     const idPokemonSelecionado = pokemon.attributes.id.value
-    //console.log(idPokemonSelecionado)
+    console.log(idPokemonSelecionado)
     
     const idDoCartaoPokemonParaAbrir = 'cartao-' + idPokemonSelecionado
     const cartaoPokemonParaAbrir = document.getElementById(idDoCartaoPokemonParaAbrir)
